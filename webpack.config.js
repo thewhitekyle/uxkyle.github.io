@@ -7,7 +7,7 @@ module.exports = {
   entry: [
     "webpack-hot-client/client?http://localhost:8080",
     "webpack/hot/only-dev-server",
-    "./src/App.js"
+    "./src/app.js"
   ],
   output: {
     path: path.join(__dirname, "./"),
