@@ -1,1 +1,2 @@
-console.log("hello");
+import "./css/main.css";
+import "./scripts/main";

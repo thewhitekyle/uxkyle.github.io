@@ -249,25 +249,60 @@ eval("/*\n\tMIT License http://www.opensource.org/licenses/mit-license.php\n\tAu
 
 /***/ }),
 
-/***/ "./src/App.js":
+/***/ "./src/app.js":
 /*!********************!*\
-  !*** ./src/App.js ***!
+  !*** ./src/app.js ***!
   \********************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_main_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./css/main.css */ \"./src/css/main.css\");\n/* harmony import */ var _css_main_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_css_main_css__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _scripts_main__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./scripts/main */ \"./src/scripts/main.js\");\n\n\n\n//# sourceURL=webpack:///./src/app.js?");
+
+/***/ }),
+
+/***/ "./src/css/main.css":
+/*!**************************!*\
+  !*** ./src/css/main.css ***!
+  \**************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/css/main.css?");
+
+/***/ }),
+
+/***/ "./src/scripts/components/hero.js":
+/*!****************************************!*\
+  !*** ./src/scripts/components/hero.js ***!
+  \****************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("console.log(\"hello\");\n\n//# sourceURL=webpack:///./src/App.js?");
+eval("console.log(123);\n\n//# sourceURL=webpack:///./src/scripts/components/hero.js?");
+
+/***/ }),
+
+/***/ "./src/scripts/main.js":
+/*!*****************************!*\
+  !*** ./src/scripts/main.js ***!
+  \*****************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _components_hero__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/hero */ \"./src/scripts/components/hero.js\");\n/* harmony import */ var _components_hero__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_components_hero__WEBPACK_IMPORTED_MODULE_0__);\n\n\n//# sourceURL=webpack:///./src/scripts/main.js?");
 
 /***/ }),
 
 /***/ 0:
 /*!******************************************************************************************************!*\
-  !*** multi webpack-hot-client/client?http://localhost:8080 webpack/hot/only-dev-server ./src/App.js ***!
+  !*** multi webpack-hot-client/client?http://localhost:8080 webpack/hot/only-dev-server ./src/app.js ***!
   \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("__webpack_require__(/*! webpack-hot-client/client?http://localhost:8080 */\"./node_modules/webpack-hot-client/client/index.js?http://localhost:8080\");\n__webpack_require__(/*! webpack/hot/only-dev-server */\"./node_modules/webpack/hot/only-dev-server.js\");\nmodule.exports = __webpack_require__(/*! ./src/App.js */\"./src/App.js\");\n\n\n//# sourceURL=webpack:///multi_webpack-hot-client/client?");
+eval("__webpack_require__(/*! webpack-hot-client/client?http://localhost:8080 */\"./node_modules/webpack-hot-client/client/index.js?http://localhost:8080\");\n__webpack_require__(/*! webpack/hot/only-dev-server */\"./node_modules/webpack/hot/only-dev-server.js\");\nmodule.exports = __webpack_require__(/*! ./src/app.js */\"./src/app.js\");\n\n\n//# sourceURL=webpack:///multi_webpack-hot-client/client?");
 
 /***/ })
 
