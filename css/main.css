@@ -1,7 +1,138 @@
+/* --- Styling --- */
+
+body{
+  padding: : 0px 24px 0px 24px;
+}
 h1, h2, h3, h4, h5, h6, p{
   font-family: 'Montserrat', sans-serif;
 }
-
 h2{
-  font-size: 2rem;
+  font-size: 78px;
+  font-weight: 700;
+  line-height: 84px;
+  letter-spacing: normal;
+  color: #000000;
+  margin:0px;
+}
+h3{
+  font-size: 14px;
+  font-weight:600;
+  line-height: 32px;
+  letter-spacing: 2.5px;
+  color: #000000;
+  margin: 0px;
+  text-transform: uppercase;
+}
+
+/* --- Navigation --- */
+
+.pure-menu{
+  padding: 13.5px 0;
+}
+.custom-wrapper {
+  background-color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  height: 80px;
+  overflow: hidden;
+  display: inline-block;
+  -webkit-transition: height 0.5s;
+  -moz-transition: height 0.5s;
+  -ms-transition: height 0.5s;
+  transition: height 0.5s;
+}
+.custom-brand{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  text-transform:lowercase;
+  letter-spacing: normal;
+  color: #000000;
+  vertical-align: center;
+  padding-right: 1.75rem;
+  padding-left: 2rem;
+}
+.custom-brand-title{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 2.5px;
+  line-height: 26px;
+  text-transform:uppercase;
+  color: #000000;
+  border-left: solid 2px;
+  border-color: #000000;
+  height: 24px;
+  padding-left: 32px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+@media (max-width: 668px) {
+  .custom-brand-title {
+    display: none!important;
+  }
+}
+.custom-toggle {
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  top: 45px;
+  right: 48px;
+  display: block;
+}
+.custom-toggle .bar {
+          background-color: #000000;
+          display: block;
+          width: 32px;
+          height: 3px;
+          border-radius: 100px;
+          position: absolute;
+          -webkit-transition: all 0.5s;
+          -moz-transition: all 0.5s;
+          -ms-transition: all 0.5s;
+          transition: all 0.5s;
+}
+.custom-toggle .bar2 {
+          background-color: #000000;
+          display: block;
+          width: 24px;
+          height: 3px;
+          border-radius: 100px;
+          position: absolute;
+          -webkit-transition: all 0.5s;
+          -moz-transition: all 0.5s;
+          -ms-transition: all 0.5s;
+          transition: all 0.5s;
+}
+
+      .custom-toggle .bar:first-child {
+          -webkit-transform: translateY(-10px);
+          -moz-transform: translateY(-10px);
+          -ms-transform: translateY(-10px);
+          transform: translateY(-10px);
+      }
+
+      .custom-toggle.x .bar {
+          -webkit-transform: rotate(45deg);
+          -moz-transform: rotate(45deg);
+          -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+      }
+
+      .custom-toggle.x .bar:first-child {
+          -webkit-transform: rotate(-45deg);
+          -moz-transform: rotate(-45deg);
+          -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+      }
+
+/* --- Homepage Styles --- */
+
+h2 .home-project-title {
+  padding-bottom: 12px;
+}
+.home-project-skills{
+  padding:0px 5px;
+}
+.home-project{
+  height: calc(100vh - 80px);
 }
