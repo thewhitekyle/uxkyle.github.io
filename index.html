@@ -10,8 +10,9 @@
   <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
   <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700" rel="stylesheet">
-  <link rel="stylesheet" href="css/main.css"
-  <script src="js/main.js" async></script>
+  <link rel="stylesheet" href="css/main.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="../uxkyle.github.io/js/main.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
@@ -21,24 +22,33 @@
       <div class="pure-menu pure-menu-horizontal">
          <a href="#" class="pure-menu-heading custom-brand">uxkyle.</a>
             <ul class="pure-menu-list">
-               <li class="pure-menu-item custom-brand-title"><div class="pure-menu-link">e-commerce design & strategy</div></li>
+               <li class="pure-menu-item custom-brand-title">e-commerce design & strategy</li>
             </ul>
-         <a href="#" class="custom-toggle" id="toggle"><s class="bar"></s><s class="bar2"></s></a>
       </div>
   </div>
   <div class="head-space"></div>
+<!-- Open / Close Menu -->
+<div class="custom-toggle" id="toggle"><span class="bar"></span><span class="bar2"></span></div>
+        <div class="overlay" id="overlay">
+              <nav class="overlay-menu">
+                <ul>
+                  <li><a href="/">Work</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </nav>
+            </div>
 
 <!-- Project 1 -->
   <div class="pure-g home-project">
     <div class="pure-u-lg-7-12 pure-u-1 home-project-vert">
             <div class="image-overlay"><img src="https://i.ibb.co/sqF9z1z/home-leesa-hero.png" alt="leesa girl on bed" class="pure-img-rewrite"></div>
         <div class="vert-center">
-            <div class="shape-behind pure-img"><div class="rectangle-module-border-wrap center"><div class="rectangle-module center"></div></div></div>
+            <div class="shape-behind"><div class="rectangle-module-border-wrap center"><div class="rectangle-module center"></div></div></div>
         </div>
     </div>
 
     <div class="pure-u-lg-5-12 pure-u-1 home-project-vert">
-        <div class="vert-center">
+        <div class="vert-center project-home-text">
             <h2 class="home-project-title">Leesa Sleep</h2>
                 <ul class="home-project-skills">
                   <h3>Design System</h3>
@@ -58,7 +68,7 @@
       </div>
 
       <div class="pure-u-lg-5-12 pure-u-1 home-project-vert">
-          <div class="vert-center">
+          <div class="vert-center project-home-text">
             <h2 class="home-project-title">Matter Fitness</h2>
               <ul class="home-project-skills">
                 <h3>Brand & Business Development</h3>
@@ -78,7 +88,7 @@
         </div>
 
         <div class="pure-u-lg-5-12 pure-u-1 home-project-vert">
-            <div class="vert-center">
+            <div class="vert-center project-home-text">
               <h2 class="home-project-title">Cedar Fair Theme Parks</h2>
                 <ul class="home-project-skills">
                   <h3>Design System</h3>
@@ -97,7 +107,7 @@
           </div>
 
           <div class="pure-u-lg-5-12 pure-u-1 home-project-vert">
-              <div class="vert-center">
+              <div class="vert-center project-home-text">
                 <h2 class="home-project-title">YooToo Maternity</h2>
                   <ul class="home-project-skills">
                     <h3>UI/UX Design</h3>
@@ -105,5 +115,6 @@
               </div>
           </div>
       </div>
+
 </body>
 </html>
